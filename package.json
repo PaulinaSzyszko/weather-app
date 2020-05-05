@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node web-server/app/app.js"
+    "start": "node web-server/src/app.js"
   },
   "keywords": [],
   "author": "",
