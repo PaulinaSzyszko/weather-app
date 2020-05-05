@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app/app.js"
+    "start": "node web-server/app/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "hbs": "^4.0.1"
+    "hbs": "^4.0.1",
+    "path": "^0.12.7"
   }
 }
