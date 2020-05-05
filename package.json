@@ -8,6 +8,9 @@
     "request": "^2.88.0"
   },
   "devDependencies": {},
+  "scripts": {
+    "start": "node app/app.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
