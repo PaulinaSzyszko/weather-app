@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node app.js"
+    "start": "node ./web-server/app/app.js"
   },
   "keywords": [],
   "author": "",
