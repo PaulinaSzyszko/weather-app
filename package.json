@@ -6,13 +6,15 @@
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.1",
-    "nodemon": "^2.0.2",
     "path": "^0.12.7",
     "request": "^2.88.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.2.0"
+  },
   "scripts": {
-    "start": "node web-server/src/app.js"
+    "start": "node web-server/src/app.js",
+    "dev": "nodemon web-server/src/app.js -e js,hbs"
   },
   "keywords": [],
   "author": "",
